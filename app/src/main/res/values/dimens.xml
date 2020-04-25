@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ovrPadding">16dp</dimen>
+    <dimen name="userNameMargin">10dp</dimen>
+    <dimen name="userNameTextSize">20sp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="albumMargin">28dp</dimen>
+    <dimen name="titleSize">30sp</dimen>
+    <dimen name="authorSize">20sp</dimen>
+    <dimen name="clickMargin">5dp</dimen>
+    <dimen name="btnChange">45dp</dimen>
+    <dimen name="btnPlay">20dp</dimen>
+    <dimen name="infoLeftMargin">16dp</dimen>
+    <dimen name="listTitleSize">20sp</dimen>
+    <dimen name="listNameSize">15sp</dimen>
+    <dimen name="listPadding">12dp</dimen>
+    <dimen name="listPic">60dp</dimen>
+    <dimen name="miniPlayerText">20sp</dimen>
+    <dimen name="miniPlayerPadding">5dp</dimen>
+    <dimen name="btnShufflePaddingBottom">5dp</dimen>
+    <dimen name="btnShufflePaddingRight">5dp</dimen>
+</resources>
