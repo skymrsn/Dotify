@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dotify</string>
+    <string name="username_hint">type your name here</string>
+    <string name="newUser">newUser</string>
+    <string name="btnChangeText">Change User</string>
+    <string name="btnApplyText">Apply</string>
+    <string name="AlbumDesc">Album Cover Image</string>
+    <string name="songTitle">Strangers</string>
+    <string name="songAuthor">Seven Lions featuring Tove Lo, Myon, Shane 54</string>
+    <string name="btnPrevious">Previous Button</string>
+    <string name="btnPlay">Play Button</string>
+    <string name="btnNext">Next Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
