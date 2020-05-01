@@ -1,10 +1,10 @@
-# Dotify
+# HW3 - Fragments, Activity Lifecycle, & Rotation; Yuchen Wang
 
 ## Description:
-  Dotify is an music player that enable users enjoys thousands of music with their Android smartphone. Currently, Dofity only support 'change username', 'button click', and 'information rendering'. More function will come soon!
-
-## Extra Credit:
-  Number 1, 3, 4, 5 have been done.
+  Dotify is an music player that enable users enjoys thousands of music with their Android smartphone. Currently, Dofity only support 'button click', 'information rendering', rotation and different display. More function will come soon!
 
 ## Screenshot
-![Screenshot of Dotify](./screenshot.png)
+![Screenshot of Dotify](./screenshot1.jpg)
+![Screenshot of Dotify](./screenshot2.jpg)
+![Screenshot of Dotify](./screenshot3.jpg)
+![Screenshot of Dotify](./screenshot4.jpg)

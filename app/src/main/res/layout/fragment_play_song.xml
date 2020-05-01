@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NowPlayingFragment"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/albumPic"
+        android:layout_width="@dimen/zero"
+        android:layout_height="@dimen/zero"
+        android:layout_marginTop="@dimen/albumMargin"
+        android:contentDescription="@string/AlbumDesc"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@id/guidelineBottom"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineTop"
+        tools:src="@drawable/strangers_cover_art" />
+
+    <TextView
+        android:id="@+id/songTile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        tools:text="@string/songTitle"
+        android:textColor="@color/title"
+        android:textSize="@dimen/titleSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/albumPic" />
+
+    <TextView
+        android:id="@+id/songAuthor"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_marginLeft="3dp"
+        tools:text="@string/songAuthor"
+        android:textAlignment="center"
+        android:textSize="@dimen/authorSize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/songTile" />
+
+    <TextView
+        android:id="@+id/clickCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/clickMargin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/songAuthor"
+        tools:text="20 times" />
+
+    <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnChange"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/btnPrevious"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_previous"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btnPlay"
+        app:layout_constraintTop_toBottomOf="@id/clickCount" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnPlay"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/btnPlay"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_play"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clickCount" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btnChange"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/btnNext"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_next"
+        app:layout_constraintLeft_toRightOf="@id/btnPlay"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clickCount" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
