@@ -37,4 +37,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "androidx.recyclerview:recyclerview:1.1.0"
     implementation 'com.ericchee:songdataprovider:1.0.5'
+    // GSON
+    implementation 'com.google.code.gson:gson:2.8.6'
+    // Volley
+    implementation 'com.android.volley:volley:1.1.1'
+    // Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
 }
